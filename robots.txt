@@ -1,0 +1,21 @@
+# Public pages and school documents are available to search engines and browsing agents.
+# AI-readable overview: https://www.kashenyisecondaryschool.com/llms.txt
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.kashenyisecondaryschool.com/sitemap.xml
